@@ -15,3 +15,6 @@ Please make sure you extract the node_modules.zip folder to the main file. Files
 # adding authentication in Express
 Okta middleware takes care of the login using the app.use(oidc.router). 
 Now, we can visit http://localhost:3000/home to login which directs us to the Okta login page.
+
+# admin page
+Set up the /admin in the application as the defaultRedirect URL in the ExpressOIDC setup to see the admin page.
