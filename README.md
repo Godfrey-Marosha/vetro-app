@@ -12,6 +12,10 @@ Express.js set up.
 # node modules
 Please make sure you extract the node_modules.zip folder to the main file. Files are over a 200.
 
+Installed the following modules for setting up my database:
+npm install sqlite3@4.0.4 sequelize@4.42.0 epilogue@0.7.1 --save
+node-pre-gyp install --fallback-to-build
+
 # adding authentication in Express
 Okta middleware takes care of the login using the app.use(oidc.router). 
 Now, we can visit http://localhost:3000/home to login which directs us to the Okta login page.
