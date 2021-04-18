@@ -8,3 +8,6 @@ Base URIs: http://localhost:3000/
 Login redirect URIs: https://localhost:3000/authorization-code/callback
 
 Express.js set up. 
+
+# node modules
+Please make sure you extract the node_modules.zip folder to the main file. Files are over a 200.
