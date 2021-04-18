@@ -11,3 +11,7 @@ Express.js set up.
 
 # node modules
 Please make sure you extract the node_modules.zip folder to the main file. Files are over a 200.
+
+# adding authentication in Express
+Okta middleware takes care of the login using the app.use(oidc.router). 
+Now, we can visit http://localhost:3000/home to login which directs us to the Okta login page.
