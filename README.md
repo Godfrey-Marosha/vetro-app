@@ -22,3 +22,6 @@ Now, we can visit http://localhost:3000/home to login which directs us to the Ok
 
 # admin page
 Set up the /admin in the application as the defaultRedirect URL in the ExpressOIDC setup to see the admin page.
+
+# setting up our SQLite database in Express.js
+Using SQLite as our database for storage using Sequelize and created the REST endpoints using Epilogue. Also, I added an authentication check to all CRUD routes using the code in PostResource.all.auth section. 
