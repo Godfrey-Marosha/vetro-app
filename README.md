@@ -31,3 +31,6 @@ admin.html
 admin.js 
 home.html 
 home.js 
+
+# login and logout button
+Load the React JavaScript and bootstrap CSS files for the home page and admin.js will render the navigation menu with the Logout button. It will also render the Add New Post button.
