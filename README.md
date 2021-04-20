@@ -13,7 +13,7 @@ Express.js set up.
 Please make sure you extract the node_modules.zip folder to the main file. Files are over a 200.
 
 Installed the following modules for setting up my database:
-npm install sqlite3@4.0.4 sequelize@4.42.0 epilogue@0.7.1 --save
+npm install sqlite3@4.0.4 sequelize@4.42.0 epilogue@0.7.1 --save 
 node-pre-gyp install --fallback-to-build
 
 # adding authentication in Express
@@ -34,3 +34,6 @@ home.js
 
 # login and logout button
 Load the React JavaScript and bootstrap CSS files for the home page and admin.js will render the navigation menu with the Logout button. It will also render the Add New Post button.
+
+# home page
+Now, if you go to http://localhost:3000/home, run npm start and log in, you should able to add new posts, update, and delete existing posts!
