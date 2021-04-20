@@ -25,3 +25,9 @@ Set up the /admin in the application as the defaultRedirect URL in the ExpressOI
 
 # setting up our SQLite database in Express.js
 Using SQLite as our database for storage using Sequelize and created the REST endpoints using Epilogue. Also, I added an authentication check to all CRUD routes using the code in PostResource.all.auth section. 
+
+# public folder created
+admin.html 
+admin.js 
+home.html 
+home.js 
